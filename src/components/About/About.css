@@ -1,0 +1,65 @@
+/* ===== About Section ===== */
+
+#about{
+    background:#111827;
+    color:white;
+    padding:100px 0;
+}
+
+#about h2{
+    color:#38BDF8;
+    font-weight:700;
+}
+
+#about h3{
+    margin-bottom:20px;
+}
+
+#about p{
+    color:#CBD5E1;
+    line-height:1.8;
+}
+
+#about img{
+    width:300px;
+    border-radius:15px;
+    border:5px solid #38BDF8;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+#about h5{
+    color:#38BDF8;
+    margin-top:20px;
+}
+
+#about .row{
+    margin-top:30px;
+}
+
+@media(max-width:992px){
+
+    #about{
+        text-align:center;
+    }
+
+    #about img{
+        margin-bottom:30px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    #about{
+        padding:80px 20px;
+    }
+
+    #about h2{
+        font-size:32px;
+    }
+
+    #about h3{
+        font-size:24px;
+    }
+
+}

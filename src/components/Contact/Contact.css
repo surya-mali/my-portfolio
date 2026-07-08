@@ -1,0 +1,74 @@
+.contact-section{
+    background:#0F172A;
+    padding:100px 0;
+}
+
+.contact-title{
+    color:#38BDF8;
+    font-size:42px;
+    font-weight:bold;
+}
+
+.contact-subtitle{
+    color:#CBD5E1;
+    margin-bottom:50px;
+}
+
+.contact-card{
+    background:#1E293B;
+    border-radius:15px;
+    padding:35px 25px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+    height:100%;
+}
+
+.contact-card:hover{
+    transform:translateY(-10px);
+    background:#38BDF8;
+}
+
+.contact-icon{
+    font-size:50px;
+    color:#38BDF8;
+    margin-bottom:20px;
+    transition:.4s;
+}
+
+.contact-card:hover .contact-icon{
+    color:white;
+}
+
+.contact-card h5{
+    color:white;
+    margin-bottom:15px;
+}
+
+.contact-card p{
+    color:#d1d5db;
+    margin:0;
+}
+
+.contact-card a{
+    color:#d1d5db;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.contact-card:hover a,
+.contact-card:hover p{
+    color:white;
+}
+
+@media(max-width:768px){
+
+    .contact-title{
+        font-size:32px;
+    }
+
+    .contact-card{
+        padding:30px 20px;
+    }
+
+}
